@@ -98,8 +98,8 @@ export default function Pokemon({ chooseType, setChooseType }: PokemonProps) {
     <section
       className={style.section}
       style={{ backgroundColor: backgroundColorMedium }}
-    >
-      <img src='../../public/poke.png' alt="PokeApi title"  className={style.title}/>
+    ><h1  className={style.title}>PokeApi</h1>
+     
       <input
         className={style.input}
         type="text"
